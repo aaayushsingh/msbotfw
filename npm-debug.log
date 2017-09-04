@@ -1,0 +1,903 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'dotenv-extended' ]
+2 info using npm@1.4.21
+3 info using node@v4.8.3
+4 verbose cache add [ 'dotenv-extended', null ]
+5 verbose cache add name=undefined spec="dotenv-extended" args=["dotenv-extended",null]
+6 verbose parsed url Url {
+6 verbose parsed url   protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'dotenv-extended',
+6 verbose parsed url   path: 'dotenv-extended',
+6 verbose parsed url   href: 'dotenv-extended' }
+7 silly lockFile cfa879da-dotenv-extended dotenv-extended
+8 verbose lock dotenv-extended /root/.npm/cfa879da-dotenv-extended.lock
+9 silly lockFile cfa879da-dotenv-extended dotenv-extended
+10 silly lockFile cfa879da-dotenv-extended dotenv-extended
+11 verbose addNamed [ 'dotenv-extended', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 62453a2c-dotenv-extended dotenv-extended@
+14 verbose lock dotenv-extended@ /root/.npm/62453a2c-dotenv-extended.lock
+15 silly addNameRange { name: 'dotenv-extended', range: '*', hasData: false }
+16 verbose request where is /dotenv-extended
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id cc65419addcf9ee5
+19 verbose url raw /dotenv-extended
+20 verbose url resolving [ 'https://registry.npmjs.org/', './dotenv-extended' ]
+21 verbose url resolved https://registry.npmjs.org/dotenv-extended
+22 verbose request where is https://registry.npmjs.org/dotenv-extended
+23 info trying registry request attempt 1 at 12:13:42 PM
+24 http GET https://registry.npmjs.org/dotenv-extended
+25 http 200 https://registry.npmjs.org/dotenv-extended
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'nginx/1.10.3',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'last-modified': 'Tue, 30 May 2017 12:05:36 GMT',
+26 silly registry.get     etag: 'W/"592d6010-6e75"',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '5451',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:43 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '30',
+26 silly registry.get     connection: 'close',
+26 silly registry.get     'x-served-by': 'cache-sin18025-SIN',
+26 silly registry.get     'x-cache': 'HIT',
+26 silly registry.get     'x-cache-hits': '2',
+26 silly registry.get     'x-timer': 'S1504507423.411345,VS0,VE0',
+26 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+27 silly addNameRange number 2 { name: 'dotenv-extended', range: '*', hasData: true }
+28 silly addNameRange versions [ 'dotenv-extended',
+28 silly addNameRange   [ '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1' ] ]
+29 verbose addNamed [ 'dotenv-extended', '2.0.1' ]
+30 verbose addNamed [ '2.0.1', '2.0.1' ]
+31 silly lockFile e3b60052-dotenv-extended-2-0-1 dotenv-extended@2.0.1
+32 verbose lock dotenv-extended@2.0.1 /root/.npm/e3b60052-dotenv-extended-2-0-1.lock
+33 silly lockFile eb820f6f-tended-dotenv-extended-2-0-1-tgz https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+34 verbose lock https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz /root/.npm/eb820f6f-tended-dotenv-extended-2-0-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz',
+35 verbose addRemoteTarball   'ba2842f9555790f806b77e4476b4237c10ec2b11' ]
+36 info retry fetch attempt 1 at 12:13:43 PM
+37 verbose fetch to= /tmp/npm-3054-gqChGXfZ/registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+38 http GET https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+39 http 200 https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+40 silly lockFile eb820f6f-tended-dotenv-extended-2-0-1-tgz https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+41 silly lockFile eb820f6f-tended-dotenv-extended-2-0-1-tgz https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz
+42 silly lockFile e3b60052-dotenv-extended-2-0-1 dotenv-extended@2.0.1
+43 silly lockFile e3b60052-dotenv-extended-2-0-1 dotenv-extended@2.0.1
+44 silly lockFile 62453a2c-dotenv-extended dotenv-extended@
+45 silly lockFile 62453a2c-dotenv-extended dotenv-extended@
+46 silly resolved [ { name: 'dotenv-extended',
+46 silly resolved     version: '2.0.1',
+46 silly resolved     description: 'A module for loading .env files and optionally loading defaults and a schema for validating all values are present.',
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+ssh://git@github.com/keithmorris/node-dotenv-extended.git' },
+46 silly resolved     main: 'lib/index.js',
+46 silly resolved     types: 'dotenv-extended.d.ts',
+46 silly resolved     bin: { 'dotenv-extended': 'lib/bin/index.js' },
+46 silly resolved     scripts:
+46 silly resolved      { test: 'gulp unittest',
+46 silly resolved        coveralls: 'cat ./coverage/lcov.info | coveralls',
+46 silly resolved        lint: 'gulp lint',
+46 silly resolved        prepublish: 'gulp build' },
+46 silly resolved     keywords: [ 'dotenv', 'environment' ],
+46 silly resolved     author:
+46 silly resolved      { name: 'Keith Morris',
+46 silly resolved        email: 'standupbass@gmail.com',
+46 silly resolved        url: 'http://standupbass.wordpress.com/' },
+46 silly resolved     license: 'MIT',
+46 silly resolved     devDependencies:
+46 silly resolved      { 'babel-eslint': '^7.2.3',
+46 silly resolved        'babel-plugin-transform-object-rest-spread': '^6.8.0',
+46 silly resolved        'babel-preset-es2015': '^6.5.0',
+46 silly resolved        chai: '^3.5.0',
+46 silly resolved        coveralls: '^2.11.6',
+46 silly resolved        del: '^2.2.0',
+46 silly resolved        eslint: '^3.2.2',
+46 silly resolved        'eslint-config-standard': '^10.2.1',
+46 silly resolved        'eslint-plugin-import': '^2.2.0',
+46 silly resolved        'eslint-plugin-node': '^4.2.2',
+46 silly resolved        'eslint-plugin-promise': '^3.5.0',
+46 silly resolved        'eslint-plugin-standard': '^3.0.1',
+46 silly resolved        gulp: '^3.9.1',
+46 silly resolved        'gulp-babel': '^6.1.2',
+46 silly resolved        'gulp-eslint': '^3.0.1',
+46 silly resolved        'gulp-istanbul': '^1.1.1',
+46 silly resolved        'gulp-mocha': '^3.0.0',
+46 silly resolved        mockery: '^2.0.0',
+46 silly resolved        'run-sequence': '^1.1.5',
+46 silly resolved        sinon: '^2.1.0',
+46 silly resolved        'sinon-chai': '^2.8.0' },
+46 silly resolved     babel: { presets: [Object], plugins: [Object] },
+46 silly resolved     dependencies:
+46 silly resolved      { '@types/dotenv': '^4.0.0',
+46 silly resolved        'auto-parse': '^1.3.0',
+46 silly resolved        camelcase: '^4.1.0',
+46 silly resolved        'cross-spawn': '^5.1.0',
+46 silly resolved        dotenv: '^4.0.0',
+46 silly resolved        'is-windows': '^1.0.0',
+46 silly resolved        lodash: '^4.3.0' },
+46 silly resolved     gitHead: '149a5adaecb6f73e15e4dd98c84fbf8212f0c515',
+46 silly resolved     bugs: { url: 'https://github.com/keithmorris/node-dotenv-extended/issues' },
+46 silly resolved     homepage: 'https://github.com/keithmorris/node-dotenv-extended#readme',
+46 silly resolved     _id: 'dotenv-extended@2.0.1',
+46 silly resolved     _shasum: 'ba2842f9555790f806b77e4476b4237c10ec2b11',
+46 silly resolved     _from: 'dotenv-extended@',
+46 silly resolved     _npmVersion: '3.10.10',
+46 silly resolved     _nodeVersion: '6.10.2',
+46 silly resolved     _npmUser: { name: 'keithmorris', email: 'standupbass@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: 'ba2842f9555790f806b77e4476b4237c10ec2b11',
+46 silly resolved        tarball: 'https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz' },
+46 silly resolved     maintainers: [ [Object] ],
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 's3://npm-registry-packages',
+46 silly resolved        tmp: 'tmp/dotenv-extended-2.0.1.tgz_1496145935583_0.9672414127271622' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/dotenv-extended/-/dotenv-extended-2.0.1.tgz' } ]
+47 info install dotenv-extended@2.0.1 into /usr/local/lib
+48 info installOne dotenv-extended@2.0.1
+49 verbose lib/node_modules/dotenv-extended unbuild
+50 verbose tar unpack /root/.npm/dotenv-extended/2.0.1/package.tgz
+51 silly lockFile 32e7a253-lib-node-modules-dotenv-extended tar:///usr/local/lib/node_modules/dotenv-extended
+52 verbose lock tar:///usr/local/lib/node_modules/dotenv-extended /root/.npm/32e7a253-lib-node-modules-dotenv-extended.lock
+53 silly lockFile 16175a6d-otenv-extended-2-0-1-package-tgz tar:///root/.npm/dotenv-extended/2.0.1/package.tgz
+54 verbose lock tar:///root/.npm/dotenv-extended/2.0.1/package.tgz /root/.npm/16175a6d-otenv-extended-2-0-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry .npmignore
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry LICENSE
+60 silly gunzTarPerm extractEntry config.js
+61 silly gunzTarPerm extractEntry CHANGELOG.md
+62 silly gunzTarPerm extractEntry CONTRIBUTING.md
+63 silly gunzTarPerm extractEntry dotenv-extended.d.ts
+64 silly gunzTarPerm extractEntry lib/config.js
+65 silly gunzTarPerm extractEntry lib/index.js
+66 silly gunzTarPerm extractEntry lib/bin/index.js
+67 silly gunzTarPerm extractEntry lib/bin/parse-command.js
+68 silly lockFile 32e7a253-lib-node-modules-dotenv-extended tar:///usr/local/lib/node_modules/dotenv-extended
+69 silly lockFile 32e7a253-lib-node-modules-dotenv-extended tar:///usr/local/lib/node_modules/dotenv-extended
+70 silly lockFile 16175a6d-otenv-extended-2-0-1-package-tgz tar:///root/.npm/dotenv-extended/2.0.1/package.tgz
+71 silly lockFile 16175a6d-otenv-extended-2-0-1-package-tgz tar:///root/.npm/dotenv-extended/2.0.1/package.tgz
+72 info preinstall dotenv-extended@2.0.1
+73 verbose readDependencies using package.json deps
+74 verbose readDependencies using package.json deps
+75 verbose cache add [ 'auto-parse@^1.3.0', null ]
+76 verbose cache add name=undefined spec="auto-parse@^1.3.0" args=["auto-parse@^1.3.0",null]
+77 verbose parsed url Url {
+77 verbose parsed url   protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'auto-parse@%5E1.3.0',
+77 verbose parsed url   path: 'auto-parse@%5E1.3.0',
+77 verbose parsed url   href: 'auto-parse@%5E1.3.0' }
+78 verbose cache add [ 'camelcase@^4.1.0', null ]
+79 verbose cache add name=undefined spec="camelcase@^4.1.0" args=["camelcase@^4.1.0",null]
+80 verbose parsed url Url {
+80 verbose parsed url   protocol: null,
+80 verbose parsed url   slashes: null,
+80 verbose parsed url   auth: null,
+80 verbose parsed url   host: null,
+80 verbose parsed url   port: null,
+80 verbose parsed url   hostname: null,
+80 verbose parsed url   hash: null,
+80 verbose parsed url   search: null,
+80 verbose parsed url   query: null,
+80 verbose parsed url   pathname: 'camelcase@%5E4.1.0',
+80 verbose parsed url   path: 'camelcase@%5E4.1.0',
+80 verbose parsed url   href: 'camelcase@%5E4.1.0' }
+81 verbose cache add name="auto-parse" spec="^1.3.0" args=["auto-parse","^1.3.0"]
+82 verbose parsed url Url {
+82 verbose parsed url   protocol: null,
+82 verbose parsed url   slashes: null,
+82 verbose parsed url   auth: null,
+82 verbose parsed url   host: null,
+82 verbose parsed url   port: null,
+82 verbose parsed url   hostname: null,
+82 verbose parsed url   hash: null,
+82 verbose parsed url   search: null,
+82 verbose parsed url   query: null,
+82 verbose parsed url   pathname: '%5E1.3.0',
+82 verbose parsed url   path: '%5E1.3.0',
+82 verbose parsed url   href: '%5E1.3.0' }
+83 verbose addNamed [ 'auto-parse', '^1.3.0' ]
+84 verbose addNamed [ null, '>=1.3.0 <2.0.0' ]
+85 silly lockFile fed14d1c-auto-parse-1-3-0 auto-parse@^1.3.0
+86 verbose lock auto-parse@^1.3.0 /root/.npm/fed14d1c-auto-parse-1-3-0.lock
+87 verbose cache add [ 'cross-spawn@^5.1.0', null ]
+88 verbose cache add name=undefined spec="cross-spawn@^5.1.0" args=["cross-spawn@^5.1.0",null]
+89 verbose parsed url Url {
+89 verbose parsed url   protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'cross-spawn@%5E5.1.0',
+89 verbose parsed url   path: 'cross-spawn@%5E5.1.0',
+89 verbose parsed url   href: 'cross-spawn@%5E5.1.0' }
+90 verbose cache add [ 'dotenv@^4.0.0', null ]
+91 verbose cache add name=undefined spec="dotenv@^4.0.0" args=["dotenv@^4.0.0",null]
+92 verbose parsed url Url {
+92 verbose parsed url   protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'dotenv@%5E4.0.0',
+92 verbose parsed url   path: 'dotenv@%5E4.0.0',
+92 verbose parsed url   href: 'dotenv@%5E4.0.0' }
+93 verbose cache add name="camelcase" spec="^4.1.0" args=["camelcase","^4.1.0"]
+94 verbose parsed url Url {
+94 verbose parsed url   protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '%5E4.1.0',
+94 verbose parsed url   path: '%5E4.1.0',
+94 verbose parsed url   href: '%5E4.1.0' }
+95 verbose addNamed [ 'camelcase', '^4.1.0' ]
+96 verbose addNamed [ null, '>=4.1.0 <5.0.0' ]
+97 silly lockFile c686bf83-camelcase-4-1-0 camelcase@^4.1.0
+98 verbose lock camelcase@^4.1.0 /root/.npm/c686bf83-camelcase-4-1-0.lock
+99 verbose cache add name="cross-spawn" spec="^5.1.0" args=["cross-spawn","^5.1.0"]
+100 verbose parsed url Url {
+100 verbose parsed url   protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '%5E5.1.0',
+100 verbose parsed url   path: '%5E5.1.0',
+100 verbose parsed url   href: '%5E5.1.0' }
+101 verbose addNamed [ 'cross-spawn', '^5.1.0' ]
+102 verbose addNamed [ null, '>=5.1.0 <6.0.0' ]
+103 silly lockFile 7d057bd9-cross-spawn-5-1-0 cross-spawn@^5.1.0
+104 verbose lock cross-spawn@^5.1.0 /root/.npm/7d057bd9-cross-spawn-5-1-0.lock
+105 verbose cache add name="dotenv" spec="^4.0.0" args=["dotenv","^4.0.0"]
+106 verbose parsed url Url {
+106 verbose parsed url   protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '%5E4.0.0',
+106 verbose parsed url   path: '%5E4.0.0',
+106 verbose parsed url   href: '%5E4.0.0' }
+107 verbose addNamed [ 'dotenv', '^4.0.0' ]
+108 verbose addNamed [ null, '>=4.0.0 <5.0.0' ]
+109 silly lockFile 34d7a500-dotenv-4-0-0 dotenv@^4.0.0
+110 verbose lock dotenv@^4.0.0 /root/.npm/34d7a500-dotenv-4-0-0.lock
+111 verbose cache add [ 'is-windows@^1.0.0', null ]
+112 verbose cache add name=undefined spec="is-windows@^1.0.0" args=["is-windows@^1.0.0",null]
+113 verbose parsed url Url {
+113 verbose parsed url   protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'is-windows@%5E1.0.0',
+113 verbose parsed url   path: 'is-windows@%5E1.0.0',
+113 verbose parsed url   href: 'is-windows@%5E1.0.0' }
+114 verbose cache add [ 'lodash@^4.3.0', null ]
+115 verbose cache add name=undefined spec="lodash@^4.3.0" args=["lodash@^4.3.0",null]
+116 verbose parsed url Url {
+116 verbose parsed url   protocol: null,
+116 verbose parsed url   slashes: null,
+116 verbose parsed url   auth: null,
+116 verbose parsed url   host: null,
+116 verbose parsed url   port: null,
+116 verbose parsed url   hostname: null,
+116 verbose parsed url   hash: null,
+116 verbose parsed url   search: null,
+116 verbose parsed url   query: null,
+116 verbose parsed url   pathname: 'lodash@%5E4.3.0',
+116 verbose parsed url   path: 'lodash@%5E4.3.0',
+116 verbose parsed url   href: 'lodash@%5E4.3.0' }
+117 verbose cache add [ '@types/dotenv@^4.0.0', null ]
+118 verbose cache add name=undefined spec="@types/dotenv@^4.0.0" args=["@types/dotenv@^4.0.0",null]
+119 verbose parsed url Url {
+119 verbose parsed url   protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: '@types/dotenv@%5E4.0.0',
+119 verbose parsed url   path: '@types/dotenv@%5E4.0.0',
+119 verbose parsed url   href: '@types/dotenv@%5E4.0.0' }
+120 silly addNameRange { name: 'auto-parse', range: '>=1.3.0 <2.0.0', hasData: false }
+121 verbose cache add name="is-windows" spec="^1.0.0" args=["is-windows","^1.0.0"]
+122 verbose parsed url Url {
+122 verbose parsed url   protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: '%5E1.0.0',
+122 verbose parsed url   path: '%5E1.0.0',
+122 verbose parsed url   href: '%5E1.0.0' }
+123 verbose addNamed [ 'is-windows', '^1.0.0' ]
+124 verbose addNamed [ null, '>=1.0.0 <2.0.0' ]
+125 silly lockFile 1eeb9686-is-windows-1-0-0 is-windows@^1.0.0
+126 verbose lock is-windows@^1.0.0 /root/.npm/1eeb9686-is-windows-1-0-0.lock
+127 verbose cache add name="lodash" spec="^4.3.0" args=["lodash","^4.3.0"]
+128 verbose parsed url Url {
+128 verbose parsed url   protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: '%5E4.3.0',
+128 verbose parsed url   path: '%5E4.3.0',
+128 verbose parsed url   href: '%5E4.3.0' }
+129 verbose addNamed [ 'lodash', '^4.3.0' ]
+130 verbose addNamed [ null, '>=4.3.0 <5.0.0' ]
+131 silly lockFile 0d8558b7-lodash-4-3-0 lodash@^4.3.0
+132 verbose lock lodash@^4.3.0 /root/.npm/0d8558b7-lodash-4-3-0.lock
+133 verbose cache add name="" spec="types/dotenv@^4.0.0" args=["","types/dotenv@^4.0.0"]
+134 verbose parsed url Url {
+134 verbose parsed url   protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'types/dotenv@%5E4.0.0',
+134 verbose parsed url   path: 'types/dotenv@%5E4.0.0',
+134 verbose parsed url   href: 'types/dotenv@%5E4.0.0' }
+135 verbose request where is /auto-parse
+136 verbose request registry https://registry.npmjs.org/
+137 verbose url raw /auto-parse
+138 verbose url resolving [ 'https://registry.npmjs.org/', './auto-parse' ]
+139 verbose url resolved https://registry.npmjs.org/auto-parse
+140 verbose request where is https://registry.npmjs.org/auto-parse
+141 info trying registry request attempt 1 at 12:13:43 PM
+142 http GET https://registry.npmjs.org/auto-parse
+143 silly addNameRange { name: 'camelcase', range: '>=4.1.0 <5.0.0', hasData: false }
+144 silly addNameRange { name: 'cross-spawn', range: '>=5.1.0 <6.0.0', hasData: false }
+145 silly addNameRange { name: 'dotenv', range: '>=4.0.0 <5.0.0', hasData: false }
+146 verbose cache add name="types/dotenv" spec="^4.0.0" args=["types/dotenv","^4.0.0"]
+147 verbose parsed url Url {
+147 verbose parsed url   protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: '%5E4.0.0',
+147 verbose parsed url   path: '%5E4.0.0',
+147 verbose parsed url   href: '%5E4.0.0' }
+148 verbose addNamed [ 'types/dotenv', '^4.0.0' ]
+149 verbose addNamed [ null, '>=4.0.0 <5.0.0' ]
+150 silly lockFile 28c5ca1a-types-dotenv-4-0-0 types/dotenv@^4.0.0
+151 verbose lock types/dotenv@^4.0.0 /root/.npm/28c5ca1a-types-dotenv-4-0-0.lock
+152 verbose request where is /dotenv
+153 verbose request registry https://registry.npmjs.org/
+154 verbose url raw /dotenv
+155 verbose url resolving [ 'https://registry.npmjs.org/', './dotenv' ]
+156 verbose url resolved https://registry.npmjs.org/dotenv
+157 verbose request where is https://registry.npmjs.org/dotenv
+158 info trying registry request attempt 1 at 12:13:43 PM
+159 http GET https://registry.npmjs.org/dotenv
+160 silly addNameRange { name: 'is-windows', range: '>=1.0.0 <2.0.0', hasData: false }
+161 silly addNameRange { name: 'lodash', range: '>=4.3.0 <5.0.0', hasData: false }
+162 verbose request where is /is-windows
+163 verbose request registry https://registry.npmjs.org/
+164 verbose url raw /is-windows
+165 verbose url resolving [ 'https://registry.npmjs.org/', './is-windows' ]
+166 verbose url resolved https://registry.npmjs.org/is-windows
+167 verbose request where is https://registry.npmjs.org/is-windows
+168 info trying registry request attempt 1 at 12:13:43 PM
+169 http GET https://registry.npmjs.org/is-windows
+170 silly addNameRange { name: 'types/dotenv', range: '>=4.0.0 <5.0.0', hasData: false }
+171 verbose request where is /types/dotenv
+172 verbose request registry https://registry.npmjs.org/
+173 verbose url raw /types/dotenv
+174 verbose url resolving [ 'https://registry.npmjs.org/', './types/dotenv' ]
+175 verbose url resolved https://registry.npmjs.org/types/dotenv
+176 verbose request where is https://registry.npmjs.org/types/dotenv
+177 info trying registry request attempt 1 at 12:13:43 PM
+178 http GET https://registry.npmjs.org/types/dotenv
+179 verbose request where is /camelcase
+180 verbose request registry https://registry.npmjs.org/
+181 verbose url raw /camelcase
+182 verbose url resolving [ 'https://registry.npmjs.org/', './camelcase' ]
+183 verbose url resolved https://registry.npmjs.org/camelcase
+184 verbose request where is https://registry.npmjs.org/camelcase
+185 info trying registry request attempt 1 at 12:13:43 PM
+186 verbose etag W/"586da767-442d"
+187 http GET https://registry.npmjs.org/camelcase
+188 verbose request where is /cross-spawn
+189 verbose request registry https://registry.npmjs.org/
+190 verbose url raw /cross-spawn
+191 verbose url resolving [ 'https://registry.npmjs.org/', './cross-spawn' ]
+192 verbose url resolved https://registry.npmjs.org/cross-spawn
+193 verbose request where is https://registry.npmjs.org/cross-spawn
+194 info trying registry request attempt 1 at 12:13:43 PM
+195 verbose etag W/"58497992-ef3f"
+196 http GET https://registry.npmjs.org/cross-spawn
+197 verbose request where is /lodash
+198 verbose request registry https://registry.npmjs.org/
+199 verbose url raw /lodash
+200 verbose url resolving [ 'https://registry.npmjs.org/', './lodash' ]
+201 verbose url resolved https://registry.npmjs.org/lodash
+202 verbose request where is https://registry.npmjs.org/lodash
+203 info trying registry request attempt 1 at 12:13:43 PM
+204 verbose etag W/"5872ebe7-28d77"
+205 http GET https://registry.npmjs.org/lodash
+206 http 200 https://registry.npmjs.org/dotenv
+207 silly registry.get cb [ 200,
+207 silly registry.get   { server: 'nginx/1.10.3',
+207 silly registry.get     'content-type': 'application/json',
+207 silly registry.get     'last-modified': 'Fri, 01 Sep 2017 11:58:25 GMT',
+207 silly registry.get     etag: 'W/"59a94b61-9f01"',
+207 silly registry.get     'content-encoding': 'gzip',
+207 silly registry.get     'cache-control': 'max-age=300',
+207 silly registry.get     'content-length': '8557',
+207 silly registry.get     'accept-ranges': 'bytes',
+207 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+207 silly registry.get     via: '1.1 varnish',
+207 silly registry.get     age: '234',
+207 silly registry.get     connection: 'close',
+207 silly registry.get     'x-served-by': 'cache-sin18033-SIN',
+207 silly registry.get     'x-cache': 'HIT',
+207 silly registry.get     'x-cache-hits': '3',
+207 silly registry.get     'x-timer': 'S1504507424.300788,VS0,VE0',
+207 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+208 http 200 https://registry.npmjs.org/is-windows
+209 silly registry.get cb [ 200,
+209 silly registry.get   { server: 'nginx/1.10.3',
+209 silly registry.get     'content-type': 'application/json',
+209 silly registry.get     'last-modified': 'Sat, 24 Jun 2017 06:12:08 GMT',
+209 silly registry.get     etag: 'W/"594e02b8-30de"',
+209 silly registry.get     'content-encoding': 'gzip',
+209 silly registry.get     'cache-control': 'max-age=300',
+209 silly registry.get     'content-length': '2894',
+209 silly registry.get     'accept-ranges': 'bytes',
+209 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+209 silly registry.get     via: '1.1 varnish',
+209 silly registry.get     age: '252',
+209 silly registry.get     connection: 'close',
+209 silly registry.get     'x-served-by': 'cache-sin18024-SIN',
+209 silly registry.get     'x-cache': 'HIT',
+209 silly registry.get     'x-cache-hits': '63',
+209 silly registry.get     'x-timer': 'S1504507424.302283,VS0,VE0',
+209 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+210 silly addNameRange number 2 { name: 'dotenv', range: '>=4.0.0 <5.0.0', hasData: true }
+211 silly addNameRange versions [ 'dotenv',
+211 silly addNameRange   [ '0.0.1',
+211 silly addNameRange     '0.0.2',
+211 silly addNameRange     '0.0.3',
+211 silly addNameRange     '0.0.4',
+211 silly addNameRange     '0.0.5',
+211 silly addNameRange     '0.1.0',
+211 silly addNameRange     '0.1.1',
+211 silly addNameRange     '0.1.2',
+211 silly addNameRange     '0.2.0',
+211 silly addNameRange     '0.2.1',
+211 silly addNameRange     '0.2.2',
+211 silly addNameRange     '0.2.3',
+211 silly addNameRange     '0.2.4',
+211 silly addNameRange     '0.2.5',
+211 silly addNameRange     '0.2.6',
+211 silly addNameRange     '0.2.7',
+211 silly addNameRange     '0.2.8',
+211 silly addNameRange     '0.3.0',
+211 silly addNameRange     '0.4.0',
+211 silly addNameRange     '0.5.0',
+211 silly addNameRange     '0.5.1',
+211 silly addNameRange     '1.0.0',
+211 silly addNameRange     '1.1.0',
+211 silly addNameRange     '1.2.0',
+211 silly addNameRange     '2.0.0',
+211 silly addNameRange     '3.0.0',
+211 silly addNameRange     '4.0.0' ] ]
+212 verbose addNamed [ 'dotenv', '4.0.0' ]
+213 verbose addNamed [ '4.0.0', '4.0.0' ]
+214 silly lockFile ba69207a-dotenv-4-0-0 dotenv@4.0.0
+215 verbose lock dotenv@4.0.0 /root/.npm/ba69207a-dotenv-4-0-0.lock
+216 silly lockFile de398a91-pmjs-org-dotenv-dotenv-4-0-0-tgz https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz
+217 verbose lock https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz /root/.npm/de398a91-pmjs-org-dotenv-dotenv-4-0-0-tgz.lock
+218 silly addNameRange number 2 { name: 'is-windows', range: '>=1.0.0 <2.0.0', hasData: true }
+219 silly addNameRange versions [ 'is-windows',
+219 silly addNameRange   [ '0.1.0', '0.1.1', '0.2.0', '1.0.0', '1.0.1' ] ]
+220 verbose addNamed [ 'is-windows', '1.0.1' ]
+221 verbose addNamed [ '1.0.1', '1.0.1' ]
+222 silly lockFile 0e1a801e-is-windows-1-0-1 is-windows@1.0.1
+223 verbose lock is-windows@1.0.1 /root/.npm/0e1a801e-is-windows-1-0-1.lock
+224 verbose addRemoteTarball [ 'https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz',
+224 verbose addRemoteTarball   '864ef1379aced55ce6f95debecdce179f7a0cd1d' ]
+225 silly lockFile dccbf228--is-windows-is-windows-1-0-1-tgz https://registry.npmjs.org/is-windows/-/is-windows-1.0.1.tgz
+226 verbose lock https://registry.npmjs.org/is-windows/-/is-windows-1.0.1.tgz /root/.npm/dccbf228--is-windows-is-windows-1-0-1-tgz.lock
+227 verbose addRemoteTarball [ 'https://registry.npmjs.org/is-windows/-/is-windows-1.0.1.tgz',
+227 verbose addRemoteTarball   '310db70f742d259a16a369202b51af84233310d9' ]
+228 info retry fetch attempt 1 at 12:13:44 PM
+229 verbose fetch to= /tmp/npm-3054-gqChGXfZ/registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz
+230 http GET https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz
+231 info retry fetch attempt 1 at 12:13:44 PM
+232 verbose fetch to= /tmp/npm-3054-gqChGXfZ/registry.npmjs.org/is-windows/-/is-windows-1.0.1.tgz
+233 http GET https://registry.npmjs.org/is-windows/-/is-windows-1.0.1.tgz
+234 http 200 https://registry.npmjs.org/camelcase
+235 silly registry.get cb [ 200,
+235 silly registry.get   { server: 'nginx/1.10.3',
+235 silly registry.get     'content-type': 'application/json',
+235 silly registry.get     'last-modified': 'Thu, 17 Aug 2017 18:44:55 GMT',
+235 silly registry.get     etag: 'W/"5995e427-4a06"',
+235 silly registry.get     'content-encoding': 'gzip',
+235 silly registry.get     'cache-control': 'max-age=300',
+235 silly registry.get     'content-length': '2835',
+235 silly registry.get     'accept-ranges': 'bytes',
+235 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+235 silly registry.get     via: '1.1 varnish',
+235 silly registry.get     age: '241',
+235 silly registry.get     connection: 'close',
+235 silly registry.get     'x-served-by': 'cache-sin18032-SIN',
+235 silly registry.get     'x-cache': 'HIT',
+235 silly registry.get     'x-cache-hits': '22',
+235 silly registry.get     'x-timer': 'S1504507424.324156,VS0,VE0',
+235 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+236 silly addNameRange number 2 { name: 'camelcase', range: '>=4.1.0 <5.0.0', hasData: true }
+237 silly addNameRange versions [ 'camelcase',
+237 silly addNameRange   [ '1.0.0',
+237 silly addNameRange     '1.0.1',
+237 silly addNameRange     '1.0.2',
+237 silly addNameRange     '1.1.0',
+237 silly addNameRange     '1.2.0',
+237 silly addNameRange     '1.2.1',
+237 silly addNameRange     '2.0.0',
+237 silly addNameRange     '2.0.1',
+237 silly addNameRange     '2.1.0',
+237 silly addNameRange     '2.1.1',
+237 silly addNameRange     '3.0.0',
+237 silly addNameRange     '4.0.0',
+237 silly addNameRange     '4.1.0' ] ]
+238 verbose addNamed [ 'camelcase', '4.1.0' ]
+239 verbose addNamed [ '4.1.0', '4.1.0' ]
+240 silly lockFile 7cccf778-camelcase-4-1-0 camelcase@4.1.0
+241 verbose lock camelcase@4.1.0 /root/.npm/7cccf778-camelcase-4-1-0.lock
+242 silly lockFile 3af93e33-rg-camelcase-camelcase-4-1-0-tgz https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz
+243 verbose lock https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz /root/.npm/3af93e33-rg-camelcase-camelcase-4-1-0-tgz.lock
+244 verbose addRemoteTarball [ 'https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz',
+244 verbose addRemoteTarball   'd545635be1e33c542649c69173e5de6acfae34dd' ]
+245 info retry fetch attempt 1 at 12:13:44 PM
+246 verbose fetch to= /tmp/npm-3054-gqChGXfZ/registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz
+247 http GET https://registry.npmjs.org/camelcase/-/camelcase-4.1.0.tgz
+248 http 200 https://registry.npmjs.org/cross-spawn
+249 silly registry.get cb [ 200,
+249 silly registry.get   { server: 'nginx/1.10.3',
+249 silly registry.get     'content-type': 'application/json',
+249 silly registry.get     'last-modified': 'Thu, 03 Aug 2017 07:17:14 GMT',
+249 silly registry.get     etag: 'W/"5982cdfa-f6c5"',
+249 silly registry.get     'content-encoding': 'gzip',
+249 silly registry.get     'cache-control': 'max-age=300',
+249 silly registry.get     'content-length': '7037',
+249 silly registry.get     'accept-ranges': 'bytes',
+249 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+249 silly registry.get     via: '1.1 varnish',
+249 silly registry.get     age: '51',
+249 silly registry.get     connection: 'close',
+249 silly registry.get     'x-served-by': 'cache-sin18033-SIN',
+249 silly registry.get     'x-cache': 'HIT',
+249 silly registry.get     'x-cache-hits': '4',
+249 silly registry.get     'x-timer': 'S1504507424.366488,VS0,VE0',
+249 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+250 silly addNameRange number 2 { name: 'cross-spawn', range: '>=5.1.0 <6.0.0', hasData: true }
+251 silly addNameRange versions [ 'cross-spawn',
+251 silly addNameRange   [ '0.1.0',
+251 silly addNameRange     '0.1.1',
+251 silly addNameRange     '0.1.2',
+251 silly addNameRange     '0.1.3',
+251 silly addNameRange     '0.1.4',
+251 silly addNameRange     '0.1.5',
+251 silly addNameRange     '0.1.6',
+251 silly addNameRange     '0.1.7',
+251 silly addNameRange     '0.2.0',
+251 silly addNameRange     '0.2.1',
+251 silly addNameRange     '0.2.2',
+251 silly addNameRange     '0.2.3',
+251 silly addNameRange     '0.2.4',
+251 silly addNameRange     '0.2.5',
+251 silly addNameRange     '0.2.6',
+251 silly addNameRange     '0.2.7',
+251 silly addNameRange     '0.2.8',
+251 silly addNameRange     '0.2.9',
+251 silly addNameRange     '0.3.0',
+251 silly addNameRange     '0.4.0',
+251 silly addNameRange     '0.4.1',
+251 silly addNameRange     '1.0.0',
+251 silly addNameRange     '1.0.1',
+251 silly addNameRange     '1.0.2',
+251 silly addNameRange     '1.0.3',
+251 silly addNameRange     '1.0.4',
+251 silly addNameRange     '2.0.0',
+251 silly addNameRange     '2.0.1',
+251 silly addNameRange     '2.1.0',
+251 silly addNameRange     '2.1.1',
+251 silly addNameRange     '2.1.2',
+251 silly addNameRange     '2.1.3',
+251 silly addNameRange     '2.1.4',
+251 silly addNameRange     '2.1.5',
+251 silly addNameRange     '2.2.0',
+251 silly addNameRange     '2.2.2',
+251 silly addNameRange     '2.2.3',
+251 silly addNameRange     '3.0.0',
+251 silly addNameRange     '3.0.1',
+251 silly addNameRange     '4.0.0',
+251 silly addNameRange     '4.0.2',
+251 silly addNameRange     '5.0.0',
+251 silly addNameRange     '5.0.1',
+251 silly addNameRange     '5.1.0' ] ]
+252 verbose addNamed [ 'cross-spawn', '5.1.0' ]
+253 verbose addNamed [ '5.1.0', '5.1.0' ]
+254 silly lockFile adbe2d75-cross-spawn-5-1-0 cross-spawn@5.1.0
+255 verbose lock cross-spawn@5.1.0 /root/.npm/adbe2d75-cross-spawn-5-1-0.lock
+256 silly lockFile 5982b0c5-ross-spawn-cross-spawn-5-1-0-tgz https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz
+257 verbose lock https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz /root/.npm/5982b0c5-ross-spawn-cross-spawn-5-1-0-tgz.lock
+258 verbose addRemoteTarball [ 'https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz',
+258 verbose addRemoteTarball   'e8bd0efee58fcff6f8f94510a0a554bbfa235449' ]
+259 info retry fetch attempt 1 at 12:13:44 PM
+260 verbose fetch to= /tmp/npm-3054-gqChGXfZ/registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz
+261 http GET https://registry.npmjs.org/cross-spawn/-/cross-spawn-5.1.0.tgz
+262 http 200 https://registry.npmjs.org/lodash
+263 silly registry.get cb [ 200,
+263 silly registry.get   { server: 'nginx/1.10.3',
+263 silly registry.get     'content-type': 'application/json',
+263 silly registry.get     'last-modified': 'Sun, 03 Sep 2017 09:42:51 GMT',
+263 silly registry.get     etag: 'W/"59abce9b-29d45"',
+263 silly registry.get     'content-encoding': 'gzip',
+263 silly registry.get     'cache-control': 'max-age=300',
+263 silly registry.get     'content-length': '18388',
+263 silly registry.get     'accept-ranges': 'bytes',
+263 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+263 silly registry.get     via: '1.1 varnish',
+263 silly registry.get     age: '22',
+263 silly registry.get     connection: 'close',
+263 silly registry.get     'x-served-by': 'cache-sin18020-SIN',
+263 silly registry.get     'x-cache': 'HIT',
+263 silly registry.get     'x-cache-hits': '123',
+263 silly registry.get     'x-timer': 'S1504507424.381555,VS0,VE0',
+263 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+264 silly addNameRange number 2 { name: 'lodash', range: '>=4.3.0 <5.0.0', hasData: true }
+265 silly addNameRange versions [ 'lodash',
+265 silly addNameRange   [ '0.1.0',
+265 silly addNameRange     '0.2.0',
+265 silly addNameRange     '0.2.1',
+265 silly addNameRange     '0.2.2',
+265 silly addNameRange     '0.3.0',
+265 silly addNameRange     '0.3.1',
+265 silly addNameRange     '0.3.2',
+265 silly addNameRange     '0.4.0',
+265 silly addNameRange     '0.4.1',
+265 silly addNameRange     '0.4.2',
+265 silly addNameRange     '0.5.0-rc.1',
+265 silly addNameRange     '0.5.0',
+265 silly addNameRange     '0.5.1',
+265 silly addNameRange     '0.5.2',
+265 silly addNameRange     '0.6.0',
+265 silly addNameRange     '0.6.1',
+265 silly addNameRange     '0.7.0',
+265 silly addNameRange     '0.8.0',
+265 silly addNameRange     '0.8.1',
+265 silly addNameRange     '0.8.2',
+265 silly addNameRange     '0.9.0',
+265 silly addNameRange     '0.9.1',
+265 silly addNameRange     '0.9.2',
+265 silly addNameRange     '0.10.0',
+265 silly addNameRange     '1.0.0-rc.1',
+265 silly addNameRange     '1.0.0-rc.2',
+265 silly addNameRange     '1.0.0-rc.3',
+265 silly addNameRange     '1.0.0',
+265 silly addNameRange     '1.0.1',
+265 silly addNameRange     '1.1.0',
+265 silly addNameRange     '1.1.1',
+265 silly addNameRange     '1.2.0',
+265 silly addNameRange     '1.2.1',
+265 silly addNameRange     '1.3.0',
+265 silly addNameRange     '1.3.1',
+265 silly addNameRange     '2.0.0',
+265 silly addNameRange     '2.1.0',
+265 silly addNameRange     '2.2.0',
+265 silly addNameRange     '2.2.1',
+265 silly addNameRange     '2.3.0',
+265 silly addNameRange     '2.4.0',
+265 silly addNameRange     '2.4.1',
+265 silly addNameRange     '3.0.0',
+265 silly addNameRange     '3.0.1',
+265 silly addNameRange     '3.1.0',
+265 silly addNameRange     '3.2.0',
+265 silly addNameRange     '3.3.0',
+265 silly addNameRange     '3.3.1',
+265 silly addNameRange     '3.4.0',
+265 silly addNameRange     '3.5.0',
+265 silly addNameRange     '3.6.0',
+265 silly addNameRange     '1.0.2',
+265 silly addNameRange     '3.7.0',
+265 silly addNameRange     '2.4.2',
+265 silly addNameRange     '3.8.0',
+265 silly addNameRange     '3.9.0',
+265 silly addNameRange     '3.9.1',
+265 silly addNameRange     '3.9.2',
+265 silly addNameRange     '3.9.3',
+265 silly addNameRange     '3.10.0',
+265 silly addNameRange     '3.10.1',
+265 silly addNameRange     '4.0.0',
+265 silly addNameRange     '4.0.1',
+265 silly addNameRange     '4.1.0',
+265 silly addNameRange     '4.2.0',
+265 silly addNameRange     '4.2.1',
+265 silly addNameRange     '4.3.0',
+265 silly addNameRange     '4.4.0',
+265 silly addNameRange     '4.5.0',
+265 silly addNameRange     '4.5.1',
+265 silly addNameRange     '4.6.0',
+265 silly addNameRange     '4.6.1',
+265 silly addNameRange     '4.7.0',
+265 silly addNameRange     '4.8.0',
+265 silly addNameRange     '4.8.1',
+265 silly addNameRange     '4.8.2',
+265 silly addNameRange     '4.9.0',
+265 silly addNameRange     '4.10.0',
+265 silly addNameRange     '4.11.0',
+265 silly addNameRange     '4.11.1',
+265 silly addNameRange     '4.11.2',
+265 silly addNameRange     '4.12.0',
+265 silly addNameRange     '4.13.0',
+265 silly addNameRange     '4.13.1',
+265 silly addNameRange     '4.14.0',
+265 silly addNameRange     '4.14.1',
+265 silly addNameRange     '4.14.2',
+265 silly addNameRange     '4.15.0',
+265 silly addNameRange     '4.16.0',
+265 silly addNameRange     '4.16.1',
+265 silly addNameRange     '4.16.2',
+265 silly addNameRange     '4.16.3',
+265 silly addNameRange     '4.16.4',
+265 silly addNameRange     '4.16.5',
+265 silly addNameRange     '4.16.6',
+265 silly addNameRange     '4.17.0',
+265 silly addNameRange     '4.17.1',
+265 silly addNameRange     '4.17.2',
+265 silly addNameRange     '4.17.3',
+265 silly addNameRange     '4.17.4' ] ]
+266 verbose addNamed [ 'lodash', '4.17.4' ]
+267 verbose addNamed [ '4.17.4', '4.17.4' ]
+268 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
+269 verbose lock lodash@4.17.4 /root/.npm/7aeb1792-lodash-4-17-4.lock
+270 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
+271 silly lockFile 7aeb1792-lodash-4-17-4 lodash@4.17.4
+272 silly lockFile 0d8558b7-lodash-4-3-0 lodash@^4.3.0
+273 silly lockFile 0d8558b7-lodash-4-3-0 lodash@^4.3.0
+274 http 404 https://registry.npmjs.org/types/dotenv
+275 silly registry.get cb [ 404,
+275 silly registry.get   { 'content-type': 'application/json',
+275 silly registry.get     'cache-control': 'max-age=0',
+275 silly registry.get     'content-length': '2',
+275 silly registry.get     'accept-ranges': 'bytes',
+275 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+275 silly registry.get     via: '1.1 varnish',
+275 silly registry.get     age: '0',
+275 silly registry.get     connection: 'close',
+275 silly registry.get     'x-served-by': 'cache-sin18025-SIN',
+275 silly registry.get     'x-cache': 'MISS',
+275 silly registry.get     'x-cache-hits': '0',
+275 silly registry.get     'x-timer': 'S1504507424.310741,VS0,VE229',
+275 silly registry.get     vary: 'Accept-Encoding' } ]
+276 silly lockFile 28c5ca1a-types-dotenv-4-0-0 types/dotenv@^4.0.0
+277 silly lockFile 28c5ca1a-types-dotenv-4-0-0 types/dotenv@^4.0.0
+278 verbose about to build /usr/local/lib/node_modules/dotenv-extended
+279 verbose lib/node_modules/dotenv-extended unbuild
+280 info preuninstall dotenv-extended@2.0.1
+281 info uninstall dotenv-extended@2.0.1
+282 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild dotenv-extended@2.0.1
+283 verbose /usr/local/bin,[object Object] binRoot
+284 info postuninstall dotenv-extended@2.0.1
+285 http 200 https://registry.npmjs.org/auto-parse
+286 silly registry.get cb [ 200,
+286 silly registry.get   { server: 'nginx/1.10.3',
+286 silly registry.get     'content-type': 'application/json',
+286 silly registry.get     'last-modified': 'Mon, 10 Apr 2017 19:03:02 GMT',
+286 silly registry.get     etag: 'W/"58ebd6e6-3dd0"',
+286 silly registry.get     'content-encoding': 'gzip',
+286 silly registry.get     'cache-control': 'max-age=300',
+286 silly registry.get     'content-length': '3745',
+286 silly registry.get     'accept-ranges': 'bytes',
+286 silly registry.get     date: 'Mon, 04 Sep 2017 06:43:44 GMT',
+286 silly registry.get     via: '1.1 varnish',
+286 silly registry.get     age: '0',
+286 silly registry.get     connection: 'close',
+286 silly registry.get     'x-served-by': 'cache-sin18028-SIN',
+286 silly registry.get     'x-cache': 'HIT',
+286 silly registry.get     'x-cache-hits': '1',
+286 silly registry.get     'x-timer': 'S1504507424.296784,VS0,VE258',
+286 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+287 silly addNameRange number 2 { name: 'auto-parse', range: '>=1.3.0 <2.0.0', hasData: true }
+288 silly addNameRange versions [ 'auto-parse', [ '1.0.0', '1.1.0', '1.2.0', '1.3.0' ] ]
+289 verbose addNamed [ 'auto-parse', '1.3.0' ]
+290 verbose addNamed [ '1.3.0', '1.3.0' ]
+291 silly lockFile ef21a3b1-auto-parse-1-3-0 auto-parse@1.3.0
+292 verbose lock auto-parse@1.3.0 /root/.npm/ef21a3b1-auto-parse-1-3-0.lock
+293 error 404 Not Found
+293 error 404
+293 error 404 'types/dotenv' is not in the npm registry.
+293 error 404 You should bug the author to publish it
+293 error 404 It was specified as a dependency of 'dotenv-extended'
+293 error 404
+293 error 404 Note that you can also install from a
+293 error 404 tarball, folder, or http url, or git url.
+294 error System Linux 4.9.0-kali4-amd64
+295 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "dotenv-extended"
+296 error cwd /home/ayushsingh/dp/bot fw/BotBuilder-Samples/Node/core-basicMultiDialog
+297 error node -v v4.8.3
+298 error npm -v 1.4.21
+299 error code E404
+300 verbose exit [ 1, true ]
